@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HambugerMenuTableViewFooterView" customModule="K_BusImitation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="of1-pi-fdW">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="666"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4nx-tJ-OX8">
+                    <rect key="frame" x="0.0" y="666" width="375" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="LUd-2w-Gal"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="of1-pi-fdW" secondAttribute="trailing" id="MVw-4e-gXf"/>
+                <constraint firstAttribute="trailing" secondItem="4nx-tJ-OX8" secondAttribute="trailing" id="YSb-cC-yYg"/>
+                <constraint firstAttribute="bottom" secondItem="4nx-tJ-OX8" secondAttribute="bottom" id="d3b-O8-rfC"/>
+                <constraint firstItem="of1-pi-fdW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="f6e-FI-sVz"/>
+                <constraint firstItem="4nx-tJ-OX8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hnf-LR-PI6"/>
+                <constraint firstItem="of1-pi-fdW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nJq-1i-19s"/>
+                <constraint firstItem="4nx-tJ-OX8" firstAttribute="top" secondItem="of1-pi-fdW" secondAttribute="bottom" id="qpJ-x7-Kqe"/>
+            </constraints>
+            <connections>
+                <outlet property="footerBackgroundView" destination="of1-pi-fdW" id="PjQ-ew-wdT"/>
+                <outlet property="heightConstraintsForLine" destination="LUd-2w-Gal" id="UXD-M0-C61"/>
+                <outlet property="lineView" destination="4nx-tJ-OX8" id="GlN-W6-OQO"/>
+            </connections>
+        </view>
+    </objects>
+</document>

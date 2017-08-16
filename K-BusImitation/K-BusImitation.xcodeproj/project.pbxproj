@@ -14,6 +14,20 @@
 		AACDF1371F40309B00890990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACDF1351F40309B00890990 /* LaunchScreen.storyboard */; };
 		AACDF1421F40309C00890990 /* K_BusImitationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF1411F40309C00890990 /* K_BusImitationTests.swift */; };
 		AACDF14D1F40309C00890990 /* K_BusImitationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF14C1F40309C00890990 /* K_BusImitationUITests.swift */; };
+		AACDF1611F40462700890990 /* HambugerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF1601F40462700890990 /* HambugerMenuViewController.swift */; };
+		AACDF1641F40465300890990 /* HambugerMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF1621F40465300890990 /* HambugerMenuTableViewCell.swift */; };
+		AACDF1651F40465300890990 /* HambugerMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACDF1631F40465300890990 /* HambugerMenuTableViewCell.xib */; };
+		AACDF16C1F404B7A00890990 /* BusNBusStopListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF16A1F404B7A00890990 /* BusNBusStopListTableViewCell.swift */; };
+		AACDF16D1F404B7A00890990 /* BusNBusStopListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACDF16B1F404B7A00890990 /* BusNBusStopListTableViewCell.xib */; };
+		AACDF1701F406BF400890990 /* FastMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF16E1F406BF400890990 /* FastMenuCollectionViewCell.swift */; };
+		AACDF1711F406BF400890990 /* FastMenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACDF16F1F406BF400890990 /* FastMenuCollectionViewCell.xib */; };
+		AACDF1781F407BD200890990 /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF1771F407BD200890990 /* UIColor+HexString.swift */; };
+		AACDF17E1F41865F00890990 /* HambugerMenuTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF17D1F41865F00890990 /* HambugerMenuTableViewHeaderView.swift */; };
+		AACDF1801F41866C00890990 /* HambugerMenuTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACDF17F1F41866C00890990 /* HambugerMenuTableViewHeaderView.xib */; };
+		AACDF1821F41868F00890990 /* HambugerMenuTableViewFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF1811F41868F00890990 /* HambugerMenuTableViewFooterView.swift */; };
+		AACDF1841F41869900890990 /* HambugerMenuTableViewFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACDF1831F41869900890990 /* HambugerMenuTableViewFooterView.xib */; };
+		AACDF1861F41C1AE00890990 /* HambugerMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDF1851F41C1AE00890990 /* HambugerMenuView.swift */; };
+		AACDF1881F41C1C700890990 /* HambugerMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACDF1871F41C1C700890990 /* HambugerMenuView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,20 @@
 		AACDF1481F40309C00890990 /* K-BusImitationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-BusImitationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACDF14C1F40309C00890990 /* K_BusImitationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_BusImitationUITests.swift; sourceTree = "<group>"; };
 		AACDF14E1F40309C00890990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACDF1601F40462700890990 /* HambugerMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HambugerMenuViewController.swift; sourceTree = "<group>"; };
+		AACDF1621F40465300890990 /* HambugerMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HambugerMenuTableViewCell.swift; sourceTree = "<group>"; };
+		AACDF1631F40465300890990 /* HambugerMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HambugerMenuTableViewCell.xib; sourceTree = "<group>"; };
+		AACDF16A1F404B7A00890990 /* BusNBusStopListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusNBusStopListTableViewCell.swift; sourceTree = "<group>"; };
+		AACDF16B1F404B7A00890990 /* BusNBusStopListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusNBusStopListTableViewCell.xib; sourceTree = "<group>"; };
+		AACDF16E1F406BF400890990 /* FastMenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		AACDF16F1F406BF400890990 /* FastMenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FastMenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		AACDF1771F407BD200890990 /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
+		AACDF17D1F41865F00890990 /* HambugerMenuTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HambugerMenuTableViewHeaderView.swift; sourceTree = "<group>"; };
+		AACDF17F1F41866C00890990 /* HambugerMenuTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HambugerMenuTableViewHeaderView.xib; sourceTree = "<group>"; };
+		AACDF1811F41868F00890990 /* HambugerMenuTableViewFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HambugerMenuTableViewFooterView.swift; sourceTree = "<group>"; };
+		AACDF1831F41869900890990 /* HambugerMenuTableViewFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HambugerMenuTableViewFooterView.xib; sourceTree = "<group>"; };
+		AACDF1851F41C1AE00890990 /* HambugerMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HambugerMenuView.swift; sourceTree = "<group>"; };
+		AACDF1871F41C1C700890990 /* HambugerMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HambugerMenuView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +125,12 @@
 		AACDF12B1F40309B00890990 /* K-BusImitation */ = {
 			isa = PBXGroup;
 			children = (
+				AACDF15D1F403C9100890990 /* Supporting Files */,
+				AACDF1761F407B3F00890990 /* Extensions */,
+				AACDF15C1F403C8800890990 /* Controllers */,
+				AACDF15B1F403C7D00890990 /* Views */,
+				AACDF15A1F403C7100890990 /* Models */,
 				AACDF12C1F40309B00890990 /* AppDelegate.swift */,
-				AACDF12E1F40309B00890990 /* ViewController.swift */,
-				AACDF1301F40309B00890990 /* Main.storyboard */,
-				AACDF1331F40309B00890990 /* Assets.xcassets */,
-				AACDF1351F40309B00890990 /* LaunchScreen.storyboard */,
-				AACDF1381F40309B00890990 /* Info.plist */,
 			);
 			path = "K-BusImitation";
 			sourceTree = "<group>";
@@ -123,6 +151,76 @@
 				AACDF14E1F40309C00890990 /* Info.plist */,
 			);
 			path = "K-BusImitationUITests";
+			sourceTree = "<group>";
+		};
+		AACDF15A1F403C7100890990 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AACDF15B1F403C7D00890990 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AACDF15F1F403CB600890990 /* Xibs */,
+				AACDF15E1F403CA600890990 /* Stroyboards */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AACDF15C1F403C8800890990 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AACDF12E1F40309B00890990 /* ViewController.swift */,
+				AACDF1601F40462700890990 /* HambugerMenuViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AACDF15D1F403C9100890990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AACDF1381F40309B00890990 /* Info.plist */,
+				AACDF1331F40309B00890990 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AACDF15E1F403CA600890990 /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AACDF1301F40309B00890990 /* Main.storyboard */,
+				AACDF1351F40309B00890990 /* LaunchScreen.storyboard */,
+			);
+			name = Stroyboards;
+			sourceTree = "<group>";
+		};
+		AACDF15F1F403CB600890990 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				AACDF1621F40465300890990 /* HambugerMenuTableViewCell.swift */,
+				AACDF1631F40465300890990 /* HambugerMenuTableViewCell.xib */,
+				AACDF16A1F404B7A00890990 /* BusNBusStopListTableViewCell.swift */,
+				AACDF16B1F404B7A00890990 /* BusNBusStopListTableViewCell.xib */,
+				AACDF16E1F406BF400890990 /* FastMenuCollectionViewCell.swift */,
+				AACDF16F1F406BF400890990 /* FastMenuCollectionViewCell.xib */,
+				AACDF17D1F41865F00890990 /* HambugerMenuTableViewHeaderView.swift */,
+				AACDF17F1F41866C00890990 /* HambugerMenuTableViewHeaderView.xib */,
+				AACDF1811F41868F00890990 /* HambugerMenuTableViewFooterView.swift */,
+				AACDF1831F41869900890990 /* HambugerMenuTableViewFooterView.xib */,
+				AACDF1851F41C1AE00890990 /* HambugerMenuView.swift */,
+				AACDF1871F41C1C700890990 /* HambugerMenuView.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		AACDF1761F407B3F00890990 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AACDF1771F407BD200890990 /* UIColor+HexString.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +334,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACDF1371F40309B00890990 /* LaunchScreen.storyboard in Resources */,
+				AACDF1841F41869900890990 /* HambugerMenuTableViewFooterView.xib in Resources */,
+				AACDF1801F41866C00890990 /* HambugerMenuTableViewHeaderView.xib in Resources */,
+				AACDF1651F40465300890990 /* HambugerMenuTableViewCell.xib in Resources */,
+				AACDF1881F41C1C700890990 /* HambugerMenuView.xib in Resources */,
+				AACDF16D1F404B7A00890990 /* BusNBusStopListTableViewCell.xib in Resources */,
+				AACDF1711F406BF400890990 /* FastMenuCollectionViewCell.xib in Resources */,
 				AACDF1341F40309B00890990 /* Assets.xcassets in Resources */,
 				AACDF1321F40309B00890990 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +366,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AACDF1861F41C1AE00890990 /* HambugerMenuView.swift in Sources */,
 				AACDF12F1F40309B00890990 /* ViewController.swift in Sources */,
+				AACDF16C1F404B7A00890990 /* BusNBusStopListTableViewCell.swift in Sources */,
+				AACDF1641F40465300890990 /* HambugerMenuTableViewCell.swift in Sources */,
+				AACDF1611F40462700890990 /* HambugerMenuViewController.swift in Sources */,
+				AACDF1701F406BF400890990 /* FastMenuCollectionViewCell.swift in Sources */,
 				AACDF12D1F40309B00890990 /* AppDelegate.swift in Sources */,
+				AACDF1781F407BD200890990 /* UIColor+HexString.swift in Sources */,
+				AACDF1821F41868F00890990 /* HambugerMenuTableViewFooterView.swift in Sources */,
+				AACDF17E1F41865F00890990 /* HambugerMenuTableViewHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
